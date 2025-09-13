@@ -1,7 +1,16 @@
 const Hero = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between pt-32 pb-16 px-8 bg-white min-h-[80vh]">
-      <div className="max-w-xl mb-12 md:mb-0">
+      <div className="flex gap-6 order-1 md:order-none mb-12 md:mb-0">
+        {/* Placeholder for mobile app screenshots */}
+        <div className="w-48 h-96 bg-gray-100 rounded-3xl shadow-lg flex items-center justify-center text-gray-400 text-lg font-semibold">
+          App Image 1
+        </div>
+        <div className="w-48 h-96 bg-gray-100 rounded-3xl shadow-lg flex items-center justify-center text-gray-400 text-lg font-semibold">
+          App Image 2
+        </div>
+      </div>
+      <div className="max-w-xl order-2 md:order-none">
         <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900 leading-tight">
           The future of money is here
         </h1>
@@ -25,15 +34,6 @@ const Hero = () => {
         <span className="text-sm text-gray-500">
           Sign up and get up to $2,000 in crypto<sup>1</sup>
         </span>
-      </div>
-      <div className="flex gap-6">
-        {/* Placeholder for mobile app screenshots */}
-        <div className="w-48 h-96 bg-gray-100 rounded-3xl shadow-lg flex items-center justify-center text-gray-400 text-lg font-semibold">
-          App Image 1
-        </div>
-        <div className="w-48 h-96 bg-gray-100 rounded-3xl shadow-lg flex items-center justify-center text-gray-400 text-lg font-semibold">
-          App Image 2
-        </div>
       </div>
     </section>
   );
