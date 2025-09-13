@@ -1,5 +1,3 @@
-import React from "react";
-
 const FeatureSection = () => (
   <section className="w-full bg-black text-white py-20 px-8 flex flex-col items-center">
     <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">

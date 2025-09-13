@@ -1,4 +1,3 @@
-import React from "react";
 import PromoBar from "./components/PromoBar";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";

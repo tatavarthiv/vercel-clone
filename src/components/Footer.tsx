@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => (
   <footer className="w-full bg-gray-100 text-gray-600 py-8 px-8 flex flex-col md:flex-row items-center justify-between">
     <span className="text-sm">
